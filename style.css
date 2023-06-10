@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+html, body {
+    scroll-behavior: smooth;
+    
+    font-family: "Poppins", sans-serif;
+    padding: 0px;
+    margin: 0px;
+  }
+
+.navCont{
+    width: 100%;
+    position: fixed;
+    
+    /* box-shadow: 0 0 3px rgb(0 0 0 / 25%); */
+    /* background-color: white; */
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    /* width: 85%; */
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 1rem;
+}
+
+.navLogoCont {
+    height: 48px;
+    align-items: center;
+    background-color:white;
+    border-radius: 100px;
+    box-shadow: 0 0 25px rgba(24,24,24,.161);
+    padding-left: 13px;
+    padding-right: 13px;
+    display: flex;
+
+} 
+
+.navlogoImg {
+    height: 45px;
+    margin: auto;
+
+    /* padding-top: 3px; */
+
+}
+
+.hamMenu {
+    visibility: collapse;
+}
+
+.ham {
+    font-size: 35px;
+    cursor: pointer;
+    color: black;
+    align-self: center;
+    padding: 10px;
+}
+
+.navList {
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    border-radius: 100px;
+    box-shadow: 0 0 25px rgba(24,24,24,.161);
+    height: 48px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+
+
+.navTxt {
+    transition-duration: .3s;
+    text-decoration: none;
+    color: #4a5868;
+    font-weight: bold;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #000;
+    padding: 12px;
+  }
+  
+  .navTxt:hover {
+    color: #6b5bf9;  
+}
+  
+
+  .navdwntxt{
+    /* background-color: red; */
+    margin: auto;
+    transition-duration: .3s;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+   
+    padding: 12px;
+
+  }
+
+  .navdwnapp{
+    height: 48px;
+    /* align-items: center; */
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:#6b5bf9;
+    border-radius: 100px;
+    box-shadow: 0 0 25px rgba(24,24,24,.161);
+    justify-content: center;
+    display: flex;
+
+  }
+
+
+  .BgImage{
+    padding-top: 77px;
+    display: flex;
+    flex-direction: row;
+    /* background-image: url("assests/backgroundImage.png"); */
+    /* background-image: url(https://raw.githubusercontent.com/Arabhya07092007/Medibey_assests/main/bgImage.png); */
+    /* background-image: url(assests/backgroundImage.png); */
+    background-image: url("assests/backgroundImage.png");
+    background-size:  100%;
+    
+    background-repeat: no-repeat;
+
+    /* height: 668px; */
+    /* background-image: url(https://ai.mastersunion.org/assets/img/AIheroBanner.png); */
+  }
+
+  .bgdcImg{
+    width: 650px;
+    padding-top: 10px;
+    margin-top: 100px;
+  }
+
+  .bgtxtcont{
+    margin: 20px;
+    margin-top: 100px;
+    margin-left: 70px;
+    margin-bottom: 0px;
+  }
+
+  .bgheading{
+    font-size: 58px;
+    line-height: 120%;
+    font-weight: 700;
+    color: #1f0a51;
+  }
+
+  .bgdesc{
+    margin-top: 20px;
+  }
+
+
+.services{
+    background-color: #d6d7ff;
+    padding: 70px;
+}
+
+.srvtxt{
+    font-weight: 600;
+    font-size: 35px;
+    color: #1f0a51;
+    /* padding-top: 20px; */
+    padding-bottom: 40px;
+}
+
+.cardCont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    justify-content: space-between;
+}
+
+.card{
+   
+    max-width: 235px;
+    box-shadow: 0 0 25px rgba(24,24,24,.161);
+    background-color: white;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.srvImg{
+    width: 235px;
+}
+
+.srvHd{
+    font-weight: 600;
+    color: #6b5bf9;
+    font-size: 18px;
+}
+
+.srvdesc{
+    font-size: 15px;
+}
+
+.abt{
+    background-color: #22184e;
+    display: flex;
+    flex-direction: row;
+    padding: 70px;
+}
+.mss{
+    
+    padding-right: 100px;
+}
+
+.msstxt1{
+    margin-top: 0;
+    color: #afa3b4;
+    font-size: 20px;
+    line-height: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.msstxt2{
+    padding-top: 20px;
+    font-size: 56px;
+    line-height: 100%;
+    font-weight: 300;
+    color: white;
+}
+
+.mssImg{
+    width: 350px;
+    margin-top: 20px;
+
+}
+
+.msstxt3{
+    padding-left: 55px;
+    background-position: 0 100%;    background-size: 40px;
+    font-size: 28px;
+    font-weight: 600;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 20px;
+}
+
+.msstxt4{
+    font-size: 18px;
+    line-height: 150%;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.impcard{
+    
+    padding: 72px;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin-top: 70px;
+
+}
+
+.impacts{
+    margin: 70px;
+}
+
+.impImgCont{
+    /* margin: auto; */
+}
+
+.impTxtCont{
+    width: 540px;
+}
+
+.impTxt1{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.imptxt2{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.impImg{
+    width: 450px;
+    border-radius: 1.5rem;
+}
+
+.footer{
+    background-color: #1f0a51;
+    color: white;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 70px;
+}
+
+.linksCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+
+
+.ftImg{
+    width: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.footercont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.frtxt2{
+    font-weight: 600;
+    font-size: 18px;
+    
+    text-transform: uppercase;
+}
+.frtxt3{
+    margin-top: 20px;
+}
+
+.dwnapp{
+    display: flex;
+    flex-direction: row;
+    font-size: 17px;
+}
+
+.dwnappImg{
+
+    width: 20px;
+    padding-right: 10px;
+
+
+}
+
+.dwnapp{
+    background-color: white;
+    border-radius: 50px;
+    padding: 15px;
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.dwnapptxt{
+    color: black;
+    font-weight: 600;
+}
+
+.frtxt4{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.footerimg{
+    width: 100%;
+}
